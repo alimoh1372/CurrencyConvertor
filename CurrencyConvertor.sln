@@ -7,9 +7,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CurrencyConvertor", "Curren
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCON.Domain", "CCON.Domain", "{4BEFE2C5-E8F7-4672-98A0-56EEB8F027D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Domain", "CurrencyConvertor.Domain\CurrencyConvertor.Domain.csproj", "{6B9FC912-B368-4A47-A99D-AA79AF153EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConvertor.Domain", "CurrencyConvertor.Domain\CurrencyConvertor.Domain.csproj", "{6B9FC912-B368-4A47-A99D-AA79AF153EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{9690ECE2-9772-4551-867B-1FF63194D371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Framework", "0_Framework\0_Framework.csproj", "{9690ECE2-9772-4551-867B-1FF63194D371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EA9F53C9-CE8E-46A6-A539-5E7210A0A0D8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documantation\Document 1.docx = ..\Documantation\Document 1.docx
+		..\Documantation\Document.docx = ..\Documantation\Document.docx
+		..\Documantation\Problem.jpg = ..\Documantation\Problem.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
