@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <DocumentationFile>D:\mohammadzade\example and practices\Task The Currency Convertor\CurrencyConvertor\CurrencyConvertor.Domain\CurrencyConvertor.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
