@@ -1,14 +1,12 @@
-﻿namespace CurrencyConvertor.Domain.ConvertRateAgg
+﻿using _0_Framework.Domain;
+
+namespace CurrencyConvertor.Domain.ConvertRateAgg
 {
     /// <summary>
-    /// To working with <see cref="ConvertRate"/>
+    /// To working with <see cref="ConvertRate"/> in the database
     /// </summary>
-    public interface IConvertRateRepository
+    public interface IConvertRateRepository:IBaseRepository<long,ConvertRate>
     {
-        /// <summary>
-        /// Create the <see cref="ConvertRate"/>
-        /// </summary>
-        /// <param name="command"></param>
-        void Create(ConvertRate command);
+        
     }
 }

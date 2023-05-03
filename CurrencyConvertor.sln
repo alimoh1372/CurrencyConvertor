@@ -18,6 +18,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		..\Documantation\Problem.jpg = ..\Documantation\Problem.jpg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCON.Application", "CCON.Application", "{2715D7AF-D14E-46F7-90AB-4FD5A88199B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Application.Contracts", "CurrencyConvertor.Application.Contracts\CurrencyConvertor.Application.Contracts.csproj", "{052BE155-851B-496A-97D8-DCF49732C283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Application", "CurrencyConvertor.Application\CurrencyConvertor.Application.csproj", "{D06DF99C-1609-4862-9430-68D000599475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCON.Infrastructure", "CCON.Infrastructure", "{513F7D69-D914-4459-B6F0-EB9CDD34C1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Infrastructure.EfCore", "CurrencyConvertor.Infrastructure.EfCore\CurrencyConvertor.Infrastructure.EfCore.csproj", "{2AED5683-5E21-4171-BFAE-B333FB3C96B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ApplicationService", "01_ApplicationService\01_ApplicationService.csproj", "{C06A843C-8018-465E-962C-EE644125A1BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +44,22 @@ Global
 		{9690ECE2-9772-4551-867B-1FF63194D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9690ECE2-9772-4551-867B-1FF63194D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9690ECE2-9772-4551-867B-1FF63194D371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052BE155-851B-496A-97D8-DCF49732C283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052BE155-851B-496A-97D8-DCF49732C283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052BE155-851B-496A-97D8-DCF49732C283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052BE155-851B-496A-97D8-DCF49732C283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06DF99C-1609-4862-9430-68D000599475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06DF99C-1609-4862-9430-68D000599475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06DF99C-1609-4862-9430-68D000599475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06DF99C-1609-4862-9430-68D000599475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AED5683-5E21-4171-BFAE-B333FB3C96B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AED5683-5E21-4171-BFAE-B333FB3C96B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AED5683-5E21-4171-BFAE-B333FB3C96B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AED5683-5E21-4171-BFAE-B333FB3C96B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06A843C-8018-465E-962C-EE644125A1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06A843C-8018-465E-962C-EE644125A1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06A843C-8018-465E-962C-EE644125A1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06A843C-8018-465E-962C-EE644125A1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +67,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4BEFE2C5-E8F7-4672-98A0-56EEB8F027D9} = {46D53849-839A-4A11-9ED0-F28D3E8EEBF0}
 		{6B9FC912-B368-4A47-A99D-AA79AF153EB5} = {4BEFE2C5-E8F7-4672-98A0-56EEB8F027D9}
+		{2715D7AF-D14E-46F7-90AB-4FD5A88199B4} = {46D53849-839A-4A11-9ED0-F28D3E8EEBF0}
+		{052BE155-851B-496A-97D8-DCF49732C283} = {2715D7AF-D14E-46F7-90AB-4FD5A88199B4}
+		{D06DF99C-1609-4862-9430-68D000599475} = {2715D7AF-D14E-46F7-90AB-4FD5A88199B4}
+		{513F7D69-D914-4459-B6F0-EB9CDD34C1B5} = {46D53849-839A-4A11-9ED0-F28D3E8EEBF0}
+		{2AED5683-5E21-4171-BFAE-B333FB3C96B8} = {513F7D69-D914-4459-B6F0-EB9CDD34C1B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93E09EE7-3EFD-4376-8734-45932D78D01C}

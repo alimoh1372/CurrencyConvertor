@@ -10,4 +10,9 @@
     <DocumentationFile>D:\mohammadzade\example and practices\Task The Currency Convertor\CurrencyConvertor\CurrencyConvertor.Domain\CurrencyConvertor.Domain.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
+    <ProjectReference Include="..\CurrencyConvertor.Application.Contracts\CurrencyConvertor.Application.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
