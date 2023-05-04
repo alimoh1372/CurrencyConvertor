@@ -23,6 +23,7 @@ namespace CurrencyConvertor.Infrastructure.EfCore
 
             //apply all mapping configuration using assembly
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+
             base.OnModelCreating(modelBuilder);
         }
     }

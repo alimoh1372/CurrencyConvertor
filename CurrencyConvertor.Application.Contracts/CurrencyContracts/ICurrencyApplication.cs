@@ -41,5 +41,7 @@ namespace CurrencyConvertor.Application.Contracts.CurrencyContracts
         /// <param name="searchModel">items we want to search by it</param>
         /// <returns>list of containing search model</returns>
         List<CurrencyViewModel> Search(CurrencySearchModel searchModel);
+
+        long GetIdBy(string currencyShortName);
     }
 }
