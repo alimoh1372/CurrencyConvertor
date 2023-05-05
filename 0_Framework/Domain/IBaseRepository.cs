@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 namespace _0_Framework.Domain
 {
     /// <summary>
-    /// The base abstraction for the entity models
+    /// abstraction for avoid of repeating the common operation of repository Such as CRUD
     /// </summary>
     /// <typeparam name="TKey">Represent the type of key property</typeparam>
     /// <typeparam name="T">Represent the type of entity</typeparam>

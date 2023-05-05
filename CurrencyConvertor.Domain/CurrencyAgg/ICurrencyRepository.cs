@@ -17,7 +17,7 @@ namespace CurrencyConvertor.Domain.CurrencyAgg
         /// Get a <see cref="EditCurrency"/> by <paramref name="id"/>
         /// </summary>
         /// <param name="id"></param>
-        /// <returns>if there is an entity with <paramref name="id"/> return it else return <see langword="null"/></returns>
+        /// <returns>if there is an entity with <paramref name="id"/> return map and return it else return <see langword="null"/></returns>
         EditCurrency GetDetail(long id);
 
 
@@ -26,7 +26,7 @@ namespace CurrencyConvertor.Domain.CurrencyAgg
         /// To search  the by search model
         /// </summary>
         /// <param name="searchModel">items we want to search by it</param>
-        /// <returns>list of containing search model</returns>
+        /// <returns> Get list of Currency and map it and filter it by search model</returns>
         List<CurrencyViewModel> Search(CurrencySearchModel searchModel);
     }
 }

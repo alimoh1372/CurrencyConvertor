@@ -20,15 +20,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCON.Application", "CCON.Application", "{2715D7AF-D14E-46F7-90AB-4FD5A88199B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Application.Contracts", "CurrencyConvertor.Application.Contracts\CurrencyConvertor.Application.Contracts.csproj", "{052BE155-851B-496A-97D8-DCF49732C283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConvertor.Application.Contracts", "CurrencyConvertor.Application.Contracts\CurrencyConvertor.Application.Contracts.csproj", "{052BE155-851B-496A-97D8-DCF49732C283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Application", "CurrencyConvertor.Application\CurrencyConvertor.Application.csproj", "{D06DF99C-1609-4862-9430-68D000599475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConvertor.Application", "CurrencyConvertor.Application\CurrencyConvertor.Application.csproj", "{D06DF99C-1609-4862-9430-68D000599475}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCON.Infrastructure", "CCON.Infrastructure", "{513F7D69-D914-4459-B6F0-EB9CDD34C1B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor.Infrastructure.EfCore", "CurrencyConvertor.Infrastructure.EfCore\CurrencyConvertor.Infrastructure.EfCore.csproj", "{2AED5683-5E21-4171-BFAE-B333FB3C96B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConvertor.Infrastructure.EfCore", "CurrencyConvertor.Infrastructure.EfCore\CurrencyConvertor.Infrastructure.EfCore.csproj", "{2AED5683-5E21-4171-BFAE-B333FB3C96B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ApplicationService", "01_ApplicationService\01_ApplicationService.csproj", "{C06A843C-8018-465E-962C-EE644125A1BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Infrastructure.ApplicationService", "01_ApplicationService\01_Infrastructure.ApplicationService.csproj", "{C06A843C-8018-465E-962C-EE644125A1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
